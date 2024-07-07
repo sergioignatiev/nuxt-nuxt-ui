@@ -1,6 +1,6 @@
 <template>
   
-  <div class="w-[300px] p-4 min-h-[300px] bg-white border-[3px]  rounded-lg">
+  <div class="sm:w-[350px]  p-4 min-h-[300px] bg-white border-[3px]  rounded-lg">
     <h1 class="font-extrabold text-[30px]">{{ label }}</h1>
     <img :src="image" :alt="label">
     <p class="font-bold">{{ context }}</p>

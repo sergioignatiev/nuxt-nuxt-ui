@@ -4,8 +4,8 @@
     <h1 class="font-extrabold text-[30px]">{{ label }}</h1>
     <img :src="image" :alt="label">
     <p class="font-bold">{{ context }}</p>
-  <p class="font-bold">{{ price }} p</p>
-  <UButton>Выбрать</UButton>
+  <p class="font-bold">{{ price }} p за курс.</p>
+  <UButton size="xl" class="my-4" color="red" variant="outline">Выбрать</UButton>
   </div>
 </template>
 

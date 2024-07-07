@@ -4,7 +4,7 @@ const route = useRoute()
 const links = [{
   label: 'Profile',
   avatar: {
-    src: 'https://portfolionext-eight.vercel.app/_next/image?url=%2FMA.png&w=1080&q=75'
+    src: 'https://avatars.githubusercontent.com/u/739984?v=4'
   },
   badge: 100
 }, {
@@ -12,9 +12,9 @@ const links = [{
   icon: 'i-heroicons-home',
   to: '/getting-started/installation'
 }, {
-  label: 'Horizontal Navigation',
+  label: 'Vertical Navigation',
   icon: 'i-heroicons-chart-bar',
-  to: `${route.path.startsWith('/dev') ? '/dev' : ''}/components/horizontal-navigation`
+  to: `${route.path.startsWith('/dev') ? '/dev' : ''}/components/vertical-navigation`
 }, {
   label: 'Command Palette',
   icon: 'i-heroicons-command-line',
@@ -23,6 +23,7 @@ const links = [{
 </script>
 
 <template>
-  <UHorizontalNavigation :links="links" class="border-b border-gray-200 dark:border-gray-800" />
+  <UVerticalNavigation :links="links" />
 </template>
+
 
